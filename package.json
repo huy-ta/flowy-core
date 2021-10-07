@@ -1,6 +1,6 @@
 {
   "name": "flowy-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./dist/flowy-core.umd.js",
   "module": "./dist/flowy-core.es.js",

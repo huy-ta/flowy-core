@@ -1,3 +1,5 @@
+import findPathIntersections from 'path-intersection';
+
 export * from './utils/geometry';
 export * from './utils/intersection';
 export * from './utils/trbl';
@@ -13,3 +15,5 @@ export * from './features/docking';
 export * from './features/docking/store';
 
 export * from './types';
+
+export { findPathIntersections };
