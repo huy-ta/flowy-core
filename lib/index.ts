@@ -1,7 +1,9 @@
 import findPathIntersections from 'path-intersection';
 
+export * from './utils';
 export * from './utils/geometry';
 export * from './utils/intersection';
+export * from './utils/path';
 export * from './utils/trbl';
 
 export * from './features/bendpoints/connectionSegmentMove';
