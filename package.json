@@ -1,6 +1,6 @@
 {
   "name": "flowy-core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "./dist/flowy-core.umd.js",
   "module": "./dist/flowy-core.es.js",
@@ -14,7 +14,8 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "prepublishOnly": "vite build"
   },
   "license": "MIT",
   "devDependencies": {
